@@ -20,7 +20,7 @@
 
 body{
     color: var(--dark);
-    background: var(--white);
+    background: var(--body);
 }
 
 .navigation{
@@ -28,15 +28,15 @@ body{
     align-items: center;
     justify-content: space-between;
     padding: 18px 40px;
-    box-shadow: 0 0.1rem 0.5rem #ccc;
+    
     width: 100%;
-    background:var(--white);
+    background:var(--box);
     transition: all 0.5s;
     position: fixed;
 }
 
 .navigation .logo{
-    color: var(--red);
+    color: var(--white);
     font-size: 1.7rem;
     font-weight: 600;
 }
@@ -48,14 +48,14 @@ body{
 }
 
 .navigation ul li a{
-    color: var(--dark);
+    color: var(--white);
     font-size: 17px;
     font-weight: 500;
     transition: all 0.5s;
 }
 
 .navigation ul li a:hover{
-    color: var(--red);
+    color: var(--bg);
 }
 
 .navigation i{
@@ -81,5 +81,131 @@ body{
 
 .menu .bar:nth-child(1),
 .menu .bar:nth-child(3){
-    background: var(--red);
+    background: var(--line);
 }
+
+/*banner*/
+
+.banner{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    
+}
+
+/*section sobre*/
+
+.sobre{
+    display: flex;
+    width: auto;
+    flex-direction: column;
+    justify-content: center;
+    margin: 50px;
+    
+}
+
+.sobre-mim{
+    display: flex;
+    justify-content:left;
+    background-color: #3A3A3A;
+    color: var(--white);
+
+}
+
+.quem-sou{
+    display: flex;
+    justify-content:left;
+    background-color: #3A3A3A;
+    color: var(--white);
+    
+    
+}
+
+.card-quem-sou{
+    display: flex;
+    justify-content:center;
+    padding: 20px;
+    height: 75vh;
+    border-radius: 20px;
+    background-color: var(--box);
+    border: 3px solid var(--line);
+    overflow: hidden;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.7);
+    transition: 0.3s; 
+    color: var(--white); 
+    font-size: 30px;
+}
+
+.card-foto {
+    width: auto;
+    padding: 5px;
+}
+
+.card-texto {
+    display: flex;
+    justify-content:left;
+    align-items: center;
+    padding: 10px; 
+}
+
+
+
+
+
+
+
+
+/*footer*/
+
+footer{
+    display: flex;
+    width: auto;
+    flex-direction: column;
+    justify-content: center;
+    margin: 50px;
+
+}
+
+.contatos{
+    display: flex;
+    justify-content:left;
+    background-color: #3A3A3A;
+    color: var(--white);
+    
+
+}
+
+.card-contatos{
+    display: flex;
+    justify-content:space-evenly;
+    padding: 5px;
+    height: auto;
+    border-radius: 20px;
+    background-color: var(--box);
+    border: 3px solid var(--line);
+    overflow: hidden;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.7);
+    transition: 0.3s; 
+    color: var(--white); 
+    font-size: 30px;
+
+}
+
+#linkedin {
+    height: 50px; 
+    margin: 10px; 
+}
+
+#github {
+    height: 45px;
+    margin: 10px;  
+}
+
+#curriculo {
+    height: 45px; 
+    margin: 10px; 
+}
+
+
