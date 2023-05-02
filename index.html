@@ -9,49 +9,69 @@
     <title>Portifólio 2</title>
 </head>
 <body>
+
     <header>
-        <nav class="navigation">
+        <nav class="navigation" id="topo">
             <ul class="nav-menu">
-                <li class="nav-item"><a href="#">Sobre</a></li>
-                <li class="nav-item"><a href="#">Projetos</a></li>
-                <li class="nav-item"><a href="#">Contatos</a></li>
+                <li class="nav-item"><a href="#sobre">Sobre</a></li>
+                <li class="nav-item"><a href="#projetos">Projetos</a></li>
+                <li class="nav-item"><a href="#contatos">Contatos</a></li>
             </ul>
             <div class="menu">
                 <span class="bar"></span>
                 <span class="bar"></span>
                 <span class="bar"></span>
-            </div>   
+            </div>
         </nav>
     </header>
 
+
+
     <main>
-        <div class="banner">
-            <img id="banner-mob" src=".img/banner1920.png" />
-        </div>
+
         <section class="sobre">
             <div class="sobre-mim">
-                <h1>Sobre mim</h1>
+                <h1 id="sobre">Sobre mim</h1>
             </div>
-            <div class="quem-sou">
-                <h2>Quem sou</h2>
-            </div>
-            <div class="card-quem-sou">
+            <div class="card-sobre-mim">
                 <img class="card-foto" src="./.img/denis.png" />
-                <div class="card-texto">
-                    <p>Viver Tecnologia é o que me faz bem, é onde tenho prazer em estar e me vejo sem limites para evoluir e crescer. </p>
+                <div class="card-texto-tecnologias">
+                    <div class="texto">
+                        <p>Viver Tecnologia é o que me faz bem, é onde tenho prazer em estar e me vejo sem limites para evoluir
+                            e crescer. <br><br> Analista de Sistemas, busco atuar no mercado de desenvolvimento de softwares após
+                            uma transição de carreira.
+                            Trago comigo uma boa experiencia no convívio profissional e uma imensa vontade de aprender cada vez
+                            mais desenvolvendo minhas skills na área de Tecnologia</p>
+                    </div>
+                    <div class="tecnologias">
+                        <img class="icon-win" src="./.icons/windowsIcon.png" />
+                        <img class="icon-ubuntu" src="./.icons/ubuntuIcon.png" />
+                        <img class="icon-gimp" src="./.icons/gimpIcon.png" />
+                        <img class="icon-canva" src="./.icons/canvaIcon.png" />
+                        <img class="icon-figma" src="./.icons/figmaIcon.png" />
+                        <img class="icon-git" src="./.icons/gitIcon.png" />
+                        <img class="icon-html" src="./.icons/htmlicon.png" />
+                        <img class="icon-css" src="./.icons/cssIcon.png" />
+                        <img class="icon-js" src="./.icons/jsIcon.png" />
+                        <img class="icon-react" src="./.icons/reactIcon.png" />
+                    </div>
                 </div>
+        
             </div>
+            <a href="#topo">Voltar ao topo</a>
+        
         </section>
 
         <section class="projetos">
             <div class="meus-projetos">
-                <h1>Meus projetos</h1>
+                <h1 id="projetos">Meus projetos</h1>
             </div>
+
             <div class="card-meus-projetos">
                 <div class="card-projeto">
                     <img class="card-img" src="./.img/dgames.png" />
                     <div class="card-corpo">
-                        <h2 class="card-titulo">PROJETO</h2>
+                        <h2 class="card-titulo">PROJETO 1</h2>
                         <p>Descrição do Projeto Descrição do Projeto Descrição do Projeto</p>
                         <div class="botoes">
                             <button id="botao" type="button">Visualizar</button>
@@ -59,10 +79,11 @@
                         </div>
                     </div>
                 </div>
+
                 <div class="card-projeto">
                     <img class="card-img" src="./.img/dgames.png" />
                     <div class="card-corpo">
-                        <h2 class="card-titulo">PROJETO</h2>
+                        <h2 class="card-titulo">PROJETO 2</h2>
                         <p>Descrição do Projeto Descrição do Projeto Descrição do Projeto</p>
                         <div class="botoes">
                             <button id="botao" type="button">Visualizar</button>
@@ -70,10 +91,11 @@
                         </div>
                     </div>
                 </div>
+
                 <div class="card-projeto">
                     <img class="card-img" src="./.img/dgames.png" />
                     <div class="card-corpo">
-                        <h2 class="card-titulo">PROJETO</h2>
+                        <h2 class="card-titulo">PROJETO 3</h2>
                         <p>Descrição do Projeto Descrição do Projeto Descrição do Projeto</p>
                         <div class="botoes">
                             <button id="botao" type="button">Visualizar</button>
@@ -82,32 +104,21 @@
                     </div>
                 </div>
             </div>
+            <a href="#topo">Voltar ao topo</a>
         </section>
-
-
-
-
-
-
-
-
-
 
         
     </main>
 
-
-
-
     
     <footer>
         <div class="contatos">
-            <h1>Meus contatos</h1>
+            <h1 id="contatos">Meus contatos</h1>
         </div>
         <div class="card-contatos">
-            <img id="linkedin" src=".icon/linkedinIcon.png" alt="linkedinIcon">
-            <img id="github" src=".icon/githubIcon.png" alt="githubIcon">
-            <img id="curriculo" src=".icon/curriculoIcon.png" alt="curriculoIcon">
+            <img id="linkedin" src=".icons/linkedinIcon.png" alt="linkedinIcon">
+            <img id="github" src=".icons/githubIcon.png" alt="githubIcon">
+            <img id="curriculo" src=".icons/curriculoIcon.png" alt="curriculoIcon">
         </div>
     </footer>
 
