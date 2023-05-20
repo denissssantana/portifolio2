@@ -6,14 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <link rel="stylesheet" href="style.css">
-    <title>Portifólio 2</title>
+    <title>Meu Portifólio</title>
 </head>
 <body>
 
     <header>
         <nav class="navigation" id="topo">
             <ul class="nav-menu">
-                <li class="nav-item"><a href="#sobre">Sobre</a></li>
+                
                 <li class="nav-item"><a href="#projetos">Projetos</a></li>
                 <li class="nav-item"><a href="#contatos">Contatos</a></li>
             </ul>
@@ -32,36 +32,40 @@
             <div class="sobre-mim-texto">
                 <h1 id="sobre">Sobre mim</h1>
             </div>
+
+            
             <div class="sobre-mim-card">
-                <img class="card-foto" src="./.img/denis.png" />
-                <div class="card-texto">
-                    <div class="texto">
-                        <p>"Viver Tecnologia é o que me faz bem, é onde tenho prazer em estar e me vejo sem limites para
-                            evoluir e crescer." <br><br> Analista de Sistemas, busco atuar no mercado de desenvolvimento de softwares
-                            após
-                            uma transição de carreira.
-                            Trago comigo uma boa experiencia no convívio profissional e uma imensa vontade de aprender cada
-                            vez
-                            mais desenvolvendo minhas skills na área de Tecnologia</p>
+                <img class="sobre-mim-card-foto" src="./.img/denis.png" />
+                <div class="sobre-mim-card-texto">
+                    <p>"Viver Tecnologia é o que me faz bem, é onde tenho prazer em estar e me vejo sem limites para evoluir e
+                        crescer." <br><br> Analista de Sistemas, busco atuar no mercado de desenvolvimento de softwares após uma
+                        transição de carreira.Trago comigo uma boa experiencia no convívio profissional e uma imensa vontade de
+                        aprender cada vez mais desenvolvendo minhas skills na área de Tecnologia.</p>
+                </div>
+            
+                <div class="sobre-mim-card-tecnologias">
+                    <div class="sobre-mim-card-tecnologias-texto">
+                        <p id="sobre">Algumas tecnologias que utilizo:</p>
                     </div>
-                    <div class="card-icones">
-                        <img class="icon-win" src="./.icons/windowsIcon2.png" />
-                        <img class="icon-ubuntu" src="./.icons/ubuntuIcon2.png" />
-                        <img class="icon-gimp" src="./.icons/gimpIcon2.png" />
-                        <img class="icon-canva" src="./.icons/canvaIcon2.png" />
-                        <img class="icon-figma" src="./.icons/figmaIcon2.png" />
-                        <img class="icon-git" src="./.icons/gitIcon2.png" />
-                        <img class="icon-html" src="./.icons/htmlicon2.png" />
-                        <img class="icon-css" src="./.icons/cssIcon2.png" />
-                        <img class="icon-js" src="./.icons/jsIcon2.png" />
-                        <img class="icon-react" src="./.icons/reactIcon2.png" />
-                    </div>
+                        <div class="sobre-mim-card-tecnologias-icones-1">
+                            <img class="icon-win" src="./.icons/windowsIcon2.png" />
+                            <img class="icon-ubuntu" src="./.icons/ubuntuIcon2.png" />
+                            <img class="icon-gimp" src="./.icons/gimpIcon2.png" />
+                            <img class="icon-canva" src="./.icons/canvaIcon2.png" />
+                            <img class="icon-figma" src="./.icons/figmaIcon2.png" />
+                        </div>
+                        <div class="sobre-mim-card-tecnologias-icones-2">
+                            <img class="icon-git" src="./.icons/gitIcon2.png" />
+                            <img class="icon-html" src="./.icons/htmlicon2.png" />
+                            <img class="icon-css" src="./.icons/cssIcon2.png" />
+                            <img class="icon-js" src="./.icons/jsIcon2.png" />
+                            <img class="icon-react" src="./.icons/reactIcon2.png" />
+                        </div>    
                 </div>
             </div>
-            <a href="#topo">Voltar ao topo</a>
         </section>
-        <section class="projetos">
-            <div class="meus-projetos">
+        <section class="meusPojetos">
+            <div class="meusPojetos-texto">
                 <h1 id="projetos">Meus projetos</h1>
             </div>
     
@@ -78,6 +82,18 @@
                     </div>
                 </div>
     
+                <div class="card-projeto">
+                    <img class="card-img" src="./.img/dgames.png" />
+                    <div class="card-corpo">
+                        <h2 class="card-titulo">PROJETO 2</h2>
+                        <p>Descrição do Projeto Descrição do Projeto Descrição do Projeto</p>
+                        <div class="botoes">
+                            <button id="botao" type="button">Visualizar</button>
+                            <button id="botao" type="button">Github</button>
+                        </div>
+                    </div>
+                </div>
+
                 <div class="card-projeto">
                     <img class="card-img" src="./.img/dgames.png" />
                     <div class="card-corpo">
@@ -112,9 +128,12 @@
         <div class="card-contatos">
             <a href="https://www.linkedin.com/in/d%C3%AAnis-santana-169b5659/" target="_blank" rel="external"><img id="linkedin" src=".icons/linkedinIcon2.png" alt="linkedinIcon"></a>
             <a href="https://github.com/denissssantana" target="_blank" rel="external"><img id="github" src=".icons/githubIcon2.png" alt="githubIcon"></a>
-            <a href="./.doc/CurriculoDenisSantana-2023.pdf" target="_blank" rel="external"><img id="curriculo" src=".icons/curriculoIcon2.png" alt="curriculoIcon"></a>   
+            <a href="./.doc/CurriculoDenisSantana-2023.pdf" target="_blank" rel="external"><img id="curriculo" src=".icons/curriculoIcon2.png" alt="curriculoIcon"></a>
+            
         </div>
+        
     </footer>
+    
     <script src="/script.js"></script>
 </body>
 </html>
